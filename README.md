@@ -1,6 +1,8 @@
 # Analytics Demo — Restaurant Tracking System
 
+
 A small end‑to‑end analytics pipeline built on **Laravel 8.83.29** and **Next.js**, integrated into a demo restaurant app.
+
 
 - **Browser SDK** captures page views and custom events.
 - **Server helper** sends business events (e.g. `order_created`) asynchronously.
@@ -397,5 +399,6 @@ type storage\logs\laravel.log
 - Single-table `events` store; production should partition by month beyond ~10M rows.
 
 ---
-#   a n a l y t i c s - d e m o  
+#   a n a l y t i c s - d e m o 
+ 
  
